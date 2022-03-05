@@ -73,7 +73,7 @@ a {
     margin-bottom: 0;
 }
 
-.intro-left > div > button {
+button {
     background-color: #866233;
     color: #f3e7d5;
     padding: 5px;
@@ -144,6 +144,37 @@ a {
     font-weight: 900;
     text-align: end;
     margin-top: 0;
+}
+
+/* SECTION FOUR, SIGN UP */
+
+.section.four {
+    display: flex;
+    justify-content: center;
+}
+
+.section-four-div {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #422c0f;
+    color: #f3e7d5;
+    border-radius: 15px;
+    margin: 15px 0;
+}
+
+.section-four-text,
+.section-four-button {
+    margin: 5px 150px;
+}
+
+.section-four-button > button {
+    font-size: 26px;
+}
+
+span {
+    font-weight: 900;
 }
 
 /* BACKGROUND COLOURS */
