@@ -91,7 +91,7 @@ a {
     height: auto;
 }
 
-/* SECTION TWO */
+/* SECTION TWO, RANDOM POTATOES */
 
 .section.two {
     display: flex;
@@ -123,6 +123,27 @@ a {
 
 .text {
     font-size: 18px;
+}
+
+/* SECTION THREE, QUOTE */
+
+.section.three {
+    padding: 5px 350px;
+    text-align: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.quoter {
+    font-size: 18px;
+    font-weight: 900;
+    text-align: end;
+    margin-top: 0;
 }
 
 /* BACKGROUND COLOURS */
