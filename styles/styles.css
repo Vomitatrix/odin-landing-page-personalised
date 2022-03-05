@@ -1,6 +1,6 @@
-* {
+/* {
     border: 1px solid red;
-}
+}*/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
@@ -43,17 +43,68 @@ li {
 }
 
 a {
-    color: antiquewhite;
+    color: #f3e7d5;
     text-decoration: none;
+}
+
+/* INTRO */
+
+.section.one {
+    padding-bottom: 30px;
+}
+
+.intro-plaque {
+    display: flex;
+    margin: 50px 0;
+    background-color: #422c0f;
+    border-radius: 25px;
+    padding: 2%;
+}
+
+.intro-left,
+.intro-right {
+    width: 50%;
+}
+
+.intro-title {
+    font-size: 56px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.intro-left > div > button {
+    background-color: #866233;
+    color: #f3e7d5;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+.intro-right {
+    text-align: center;
+}
+
+
+.placeholder > img {
+    width: 500px;
+    height: auto;
 }
 
 /* BACKGROUND COLOURS */
 
 .section.one,
-.footer {
+footer {
     background-color: #866233;
+    color: #f3e7d5;
+
+}
+
+.section.two,
+.section.three {
+    color: #422c0f;
 }
 
 .section.three {
     background-color: #ccc1b2;
+    color: #422c0f;
 }
