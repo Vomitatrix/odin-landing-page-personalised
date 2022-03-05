@@ -177,6 +177,14 @@ span {
     font-weight: 900;
 }
 
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 18px;
+}
+
 /* BACKGROUND COLOURS */
 
 .section.one,
